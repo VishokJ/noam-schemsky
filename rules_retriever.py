@@ -8,7 +8,7 @@ os.environ['PYTHONWARNINGS'] = 'ignore'
 from typing import List, Dict, Any
 from bs4 import BeautifulSoup
 import pdfplumber
-from .hyperparams import get as H
+from hyperparams import get as H
 
 def build_html_graph(html: str) -> List[Dict[str, Any]]:
     soup = BeautifulSoup(html, 'html.parser')

@@ -1,4 +1,4 @@
-from .hyperparams import get as H
+from hyperparams import get as H
 
 # THIS FILE IS NOT USED!!!! JUST HERE FOR REFERENCE
 
